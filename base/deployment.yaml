@@ -33,3 +33,22 @@ spec:
               protocol: TCP
 #      imagePullSecrets:
 #        - name: regcred
+
+
+# Docker hub 에서 private 이미지 가져올 경우
+#kubectl create secret docker-registry regcred \
+#  --docker-server=https://index.docker.io/v1/ \
+#  --docker-username=<도커허브 계정아이디> \
+#  --docker-password=<도커허브 비밀번호> \
+#  --docker-email=<도커허브 가입 이메일> \
+#  --namespace=<네임스페이스>
+
+# Docker hub 이 아닌 다른 Registry 를 사용할경우
+#kubectl create secret docker-registry regcred \
+#  --docker-server=192.168.0.33 \
+#  --docker-username=<사용자명> \
+#  --docker-password=<비밀번호> \
+#  --docker-email=<이메일> \
+
+
+
