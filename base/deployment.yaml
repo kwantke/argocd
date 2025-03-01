@@ -25,7 +25,7 @@ spec:
         app: welcome-app
     spec:
       containers:
-        - image: kwangko/test1:12
+        - image: kwangko/test1:11
           imagePullPolicy: IfNotPresent
           name: cicd-web-project
           ports:
