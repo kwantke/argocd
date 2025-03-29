@@ -26,7 +26,7 @@ spec:
     spec:
       containers:
         - image: kwangko/test1:11
-          imagePullPolicy: IfNotPresent
+          imagePullPolicy: Always
           name: cicd-web-project
           ports:
             - containerPort: 8080
