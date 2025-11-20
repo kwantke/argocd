@@ -14,7 +14,7 @@ spec:
         app: concert-app
     spec:
       containers:
-        - image: kwangko/concert:dev_25
+        - image: kwangko/concert:dev_30
           imagePullPolicy: Always
           name: concert-project
           ports:
